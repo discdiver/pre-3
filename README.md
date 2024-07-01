@@ -20,4 +20,5 @@ Follow the transactions docs to QA them at the same time.
 
 ## Deferred Tasks
 
-1. Start a task server. Start a task scheduler. There are examples in the docs (and also in this repo).
+1. Start a task server.
+2. Start a task scheduler. There are examples in the docs (and also in this repo).
