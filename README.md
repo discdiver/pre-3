@@ -16,17 +16,19 @@ Prefect's newest feature. Let's explore it!
 
 1. Create a flow with a task that write data to a file. Another task does a data quality check and is hard-coded to fail. Run the code. What happens?
 2. Run the same flow, except in a transaction so that it will rollback the write operation.
+3. Explore!
 
-## Deferred Tasks
+## Choose a random Prefect 2 demo/repo and try to run it with Prefect 3
+
+1. Any problems? File an issue!
+2. Find something broken in the docs? Open an issue and/or submit a PR!
+
+## Deferred tasks (explored previously on this show)
 
 1. Start a task server. Think for a beat about how to do this. Check out the docs or solution in this repo if you're stuck.
 2. Start a task scheduler.
 3. Send tasks to the task server from the task scheduler.
 4. Where are the tasks in the UI? Or are they in the UI?
-
-## Automations with variables
-
-1. Make an automation that uses a variable.
 
 ## Bonus: Run input
 
