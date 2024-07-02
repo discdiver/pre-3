@@ -34,7 +34,7 @@ Prefect's newest feature. Let's explore it!
 
 Are you a Pydantic pro (or want to become one)?
 
-Update the run_input example from the Prefect docs to use a Pydantic v2 model.
+Update the [this example](https://docs-3.prefect.io/3.0rc/develop/inputs#pause-or-suspend-a-flow-until-it-receives-input) from the Prefect docs to use a Pydantic v2 model. [Issue](https://github.com/PrefectHQ/prefect/issues/14321).
 
 ## Pick an integration library and run an example from its docs
 
