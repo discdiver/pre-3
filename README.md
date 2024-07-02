@@ -14,15 +14,19 @@ uv pip install "prefect[aws, azure, bitbucket, dask, databricks, dbt, docker, em
 
 Prefect's newest feature. Let's explore it!
 
-Create a flow with a task that raises an exception. The flow should be able to handle the exception and rollback any changes made by the task.
-
-Follow the transactions docs to QA them at the same time.
+1. Create a flow with a task that write data to a file. Another task does a data quality check and is hard-coded to fail. Run the code. What happens?
+2. Run the same flow, except in a transaction so that it will rollback the write operation.
 
 ## Deferred Tasks
 
 1. Start a task server. Think for a beat about how to do this. Check out the docs or solution in this repo if you're stuck.
 2. Start a task scheduler.
 3. Send tasks to the task server from the task scheduler.
+4. Where are the tasks in the UI? Or are they in the UI?
+
+## Automations with variables
+
+1. Make an automation that uses a variable.
 
 ## Bonus: Run input
 
