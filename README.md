@@ -7,7 +7,7 @@ Explore some Prefect 3 features. Part familiarization, part QA, all fun!
 In a brand new virtual enviroment installl the latest released pre-release version of Prefect 3 and all of the integration libraries.
 
 ```bash
-uv pip install "prefect[aws, azure, bitbucket, dask, databricks, dbt, docker, email, gcp, github, gitlab, kubernetes, ray, slack, snowflake, sqlalchemy]" --pre
+uv pip install "prefect[aws, azure, bitbucket, dask, databricks, dbt, docker, email, gcp, github, gitlab, kubernetes, ray, slack, snowflake, sqlalchemy]" --pre -U
 ```
 
 ## Transactions
