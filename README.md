@@ -30,12 +30,6 @@ Prefect's newest feature. Let's explore it!
 3. Send tasks to the task server from the task scheduler.
 4. Where are the tasks in the UI? Or are they in the UI?
 
-## Bonus: Run input
-
-Are you a Pydantic pro (or want to become one)?
-
-Update the [this example](https://docs-3.prefect.io/3.0rc/develop/inputs#pause-or-suspend-a-flow-until-it-receives-input) from the Prefect docs to use a Pydantic v2 model. [Issue](https://github.com/PrefectHQ/prefect/issues/14321).
-
 ## Pick an integration library and run an example from its docs
 
 Please file issues for any problems, and if the issue something small with the docs, please submit a PR to fix it! :)
